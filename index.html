@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  
+
+<nav>   
+  <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">Ingredients</a></li>
+      <li><a href="#contact">Preparation</a></li>
+      <li><a href="#about">recipes</a></li>
+  </ul>
+</nav>
+  <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<header class="head">
+  <h1>My Spinach salad</h1>
+   <p>Spinach salad is a salad with <span>spinach</span>  as its main ingredient. Common additional ingredients include <span>tomatoes, eggs, cheese, slivered almonds, walnuts</span>  and/or fresh or dried berries, such as cranberry, or strawberry</p>
+  <h3 >my favorite dish is spinach salad</h3>
+  <img src="https://i.imgur.com/rRJBz32.jpg"alt="spinach salad"height="300mp" width="400">
+</header>
+<main> 
+    <p>Cooking is the art, technology, science and craft of preparing food for consumption. ... Cooking is done both by people in their own dwellings and by professional cooks and chefs in restaurants and other food establishments.</p>
+ 
+<table id="table">
+  <tr>
+    <th>Ingredients</th>
+    <th>Net.Wgt</th>
+  </tr>
+  <tr>
+    <td>spinach leafs</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>nuts</td>
+    <td>50gm</td>
+  </tr>
+   <tr>
+    <td>cranberries</td>
+    <td>50gm</td>
+  </tr>
+   <tr>
+    <td>croutons</td>
+    <td>100gm</td>
+  </tr>
+   <tr>
+    <td>Danish blue cheese</td>
+    <td>our uses</td>
+  </tr>
+ 
+</table>
+
+ <article>
+ <div class="ingredients">   
+   <h2>Ingredients</h2>
+     <ul>
+      <li>spinach leafs</li>
+      <li>nuts</li>
+      <li>cranberries</li>
+      <li>croutons</li>
+      <li>cranberries</li>
+      <li>Danish blue cheese</li>
+ </ul>
+ 
+  
+   <h2>Preparation </h2>
+     <ol>
+      <li>wash and pre desinfect spinach if necessary &#128540;</li>
+      <li>rinse spinach and let dry &#128565;</li>
+      <li>spinach is placed on the plate in on orderly manner as in bed &#129296;</li>
+      <li>olive oil is spiced to taste on spinach &#129322;</li>
+      <li>dressing is added to taste on the spinach bed &#129316;</li>
+      <li>cranberries are scatteried over the salad</li>
+      <li>scatter bits of cheese on the salad</li>
+      <li>croutons are scatteered over the salad</li>
+      <li>let <b>enjoy</b> &#129321;</li>
+  </ol>
+</div>
+ </article>
+
+</main>  
+<div >  
+  <h2 >Here some recipes</h2>
+  <ul>
+      <li><a href="http://www.thespruceeats.com ">Green salad</a></li>
+      <li><a href="http://www.tasteofhome.com ">salad with poppu</a></li>
+      <li><a href="http://www.gimmesomeoven.com"> Apple Spinach Salad</a></li>
+      <li><a href="http://www.delish.com"> This simple spinach salad</a></li>
+      <li><a href="http://www.ifoodreal.com ">Spinach Salad with egg</a></li>
+  </ul>
+</div>
+        
+
+
+<script id="jsbin-source-css" type="text/css">
+body {
+  background-color: yellow;
+  margin:0;
+}
+@media only screen and (max-width:400px) {
+  body {
+    background-color: lightblue;
+  }
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.head{
+  text-align:center;
+  
+}
+h1{
+ background-color:brown; 
+}
+main article .ingredients{
+   display:flex;
+}
+
+@media all and (max-width: 750px) and (min-width: 401px){
+  table, th, td {
+  border: 1px solid black;
+    
+}
+}
+@media all and (min-width: 750px){
+  body{
+     background-color:red;
+  }
+  h2{
+    background-color:gold;
+  }
+  
+}
+article > .ingredients{
+  background-color:orange;
+}
+h3{
+  color:purple;
+ text-decoration: underline overline;
+}</script>
+</body>
+  
+<style id="jsbin-css">
+body {
+  background-color: yellow;
+  margin:0;
+}
+@media only screen and (max-width:400px) {
+  body {
+    background-color: lightblue;
+  }
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.head{
+  text-align:center;
+  
+}
+h1{
+ background-color:brown; 
+}
+main article .ingredients{
+   display:flex;
+}
+
+@media all and (max-width: 750px) and (min-width: 401px){
+  table, th, td {
+  border: 1px solid black;
+    
+}
+}
+@media all and (min-width: 750px){
+  body{
+     background-color:red;
+  }
+  h2{
+    background-color:gold;
+  }
+  
+}
+article > .ingredients{
+  background-color:orange;
+}
+h3{
+  color:purple;
+ text-decoration: underline overline;
+}
+</style>
+</head>
+</html>
